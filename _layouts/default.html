@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  {% seo %}
+  <link rel="alternate" type="application/rss+xml" href="{{ '/feed.xml' | absolute_url }}" title="{{ site.title }}">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+  {% if page.jsonld %}
+  <script type="application/ld+json">{{ page.jsonld | jsonify }}</script>
+  {% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Zombie Stage Wiki",
+    "url": "https://zombiestage.com",
+    "description": "Community-curated fan wiki for Zombie Stage (Alien Stage AU by VIVINOS).",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Zombie Stage Wiki",
+      "url": "https://zombiestage.com"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://zombiestage.com/search/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="/">Zombie Stage <span>Wiki</span></a>
+      <nav>
+        <a href="/songs/">Songs &amp; Lyrics</a>
+        <a href="/rounds/">Rounds</a>
+        <a href="/characters/">Characters</a>
+        <a href="/comics/">Comics</a>
+        <a href="/watch/">Where to Watch</a>
+        <a href="/lore/what-is-zombie-stage/">What is Zombie Stage?</a>
+        <a href="/contribute/">Contribute</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content">
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    {% endif %}
+    {{ content }}
+
+    {% if page.updated %}
+    <p class="updated">Last updated: {{ page.updated }}</p>
+    {% endif %}
+
+    <hr>
+    <p class="edit-hint">
+      Spot something wrong or missing?
+      <a href="https://github.com/zombiestageweb/Wiki/edit/main/{{ page.path }}">Edit this page on GitHub →</a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <strong>Zombie Stage Wiki</strong> is an open, fan-run reference for
+        <em>Zombie Stage</em>, an official alternate universe of
+        <a href="https://alienstage.fandom.com/wiki/ALIEN_STAGE_Wiki" rel="noopener">Alien Stage</a>
+        by <a href="https://www.youtube.com/@vivinos" rel="noopener">VIVINOS</a>.
+        Not affiliated with VIVINOS. Content is CC-BY-SA unless stated.
+      </p>
+      <p>
+        <a href="https://github.com/zombiestageweb/Wiki">Source on GitHub</a> ·
+        <a href="/sitemap.xml">Sitemap</a> ·
+        <a href="/feed.xml">RSS</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

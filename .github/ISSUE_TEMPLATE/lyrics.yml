@@ -1,0 +1,39 @@
+name: Submit or fix lyrics
+description: Add verified lyrics for a Zombie Stage song, or fix an existing set.
+title: "[lyrics] "
+labels: [lyrics, content]
+body:
+  - type: input
+    id: song
+    attributes:
+      label: Song title
+      placeholder: e.g. Little Bunny
+    validations:
+      required: true
+  - type: input
+    id: round
+    attributes:
+      label: Round
+      placeholder: e.g. 1
+  - type: input
+    id: source
+    attributes:
+      label: Source (official YouTube URL, timestamp)
+      placeholder: https://youtube.com/watch?v=...&t=...
+    validations:
+      required: true
+  - type: textarea
+    id: lyrics
+    attributes:
+      label: Lyrics
+      description: Paste the lyrics as you'd like them to appear on the page. Multi-language is fine — mark each block.
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreement
+      options:
+        - label: I transcribed these myself (or have permission), and I'm okay with them being published under CC-BY-SA 4.0.
+          required: true

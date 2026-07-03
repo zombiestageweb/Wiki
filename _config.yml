@@ -1,0 +1,54 @@
+title: "Zombie Stage Wiki"
+tagline: "Open, community-curated wiki for Zombie Stage — VIVINOS' Alien Stage AU"
+description: >-
+  A fan-run, open-source wiki for Zombie Stage (ALNST AU by VIVINOS). Song
+  lyrics, character profiles, round-by-round episode guides, comic translations,
+  release schedule, and lore — all editable by fans on GitHub.
+url: "https://zombiestage.com"
+baseurl: ""
+lang: en
+timezone: Etc/UTC
+
+author:
+  name: "Zombie Stage Wiki Contributors"
+  url: "https://github.com/zombiestageweb/Wiki"
+
+github:
+  repository_url: "https://github.com/zombiestageweb/Wiki"
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      image: "/assets/og-default.svg"
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github
+
+collections:
+  songs:
+    output: true
+    permalink: /songs/:name/
+  characters:
+    output: true
+    permalink: /characters/:name/
+  rounds:
+    output: true
+    permalink: /rounds/:name/

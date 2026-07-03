@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="song">
+  <p class="meta">
+    Song from <a href="/rounds/{{ page.round_slug }}/">Round {{ page.round }}</a>
+    {% if page.performers %} · Performed by
+      {% for p in page.performers %}<a href="/characters/{{ p | downcase }}/">{{ p }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    {% endif %}
+  </p>
+
+  {% if page.lyrics_status %}
+  <p class="notice"><strong>Lyrics status:</strong> {{ page.lyrics_status }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  <h2>More Zombie Stage songs</h2>
+  <ul>
+  {% for s in site.songs %}{% unless s.url == page.url %}
+    <li><a href="{{ s.url }}">{{ s.title }}</a>{% if s.round %} — Round {{ s.round }}{% endif %}</li>
+  {% endunless %}{% endfor %}
+  </ul>
+</article>

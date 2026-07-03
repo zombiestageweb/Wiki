@@ -1,0 +1,30 @@
+name: New Round dropped
+description: A new Zombie Stage Round released — help us update the wiki.
+title: "[round] Round N recap"
+labels: [round, content]
+body:
+  - type: input
+    id: round
+    attributes:
+      label: Round number
+      placeholder: e.g. 2
+    validations:
+      required: true
+  - type: input
+    id: release_date
+    attributes:
+      label: Official release date
+  - type: textarea
+    id: songs
+    attributes:
+      label: Songs featured
+      description: One per line — song title + performer(s).
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short recap
+      description: 2-4 sentences, no spoilers in the first line.
+  - type: input
+    id: source
+    attributes:
+      label: Official video URL
