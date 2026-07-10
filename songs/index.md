@@ -5,6 +5,9 @@ description: "Complete index of every song in Zombie Stage (Alien Stage AU by VI
 permalink: /songs/
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/lyrics/](https://zombiestage.com/lyrics/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Below is the **complete list of Zombie Stage songs** currently known, grouped by Round. Zombie Stage is the Alien Stage AU by VIVINOS; for mainline ALNST tracks (Sweet Dream, MY CLEMATIS, KARMA, Wiege…) see the [ALIEN STAGE Wiki on Fandom](https://alienstage.fandom.com/wiki/Songs).
 
 <table>
