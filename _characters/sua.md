@@ -7,6 +7,9 @@ description: "Sua in Zombie Stage: the Sewer, obsessed with Mizi, opposite lead 
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/characters/sua/](https://zombiestage.com/characters/sua/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Sua** in Zombie Stage is the "Sewer" — the AU's nickname for her — a zombified performer whose
 arc runs entirely through her fixation on [Mizi](/characters/mizi/). She is the second lead of
 Round 1 and the performer of [Candy Scar](/songs/candy-scar/).
