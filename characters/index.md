@@ -5,6 +5,9 @@ description: "Every character in Zombie Stage (Alien Stage AU by VIVINOS). Mizi,
 permalink: /characters/
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/characters/](https://zombiestage.com/characters/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Zombie Stage reuses the mainline *Alien Stage* cast but reimagines them inside the zombie-arena AU.
 Below is the current cast map — expect it to grow as later Rounds drop.
 
