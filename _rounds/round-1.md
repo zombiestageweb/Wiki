@@ -7,6 +7,9 @@ summary: "Mizi vs Sua. Songs: Little Bunny, Candy Scar. The auction-scene finale
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/round-1-recap/](https://zombiestage.com/guide/round-1-recap/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Round 1** is the opening act of Zombie Stage and centers on **Mizi** and **Sua**. It reintroduces
 the two mainline-ALNST leads inside the Zombie Stage AU, then delivers the AU's mission-statement
 moment: the on-stage dismemberment and post-match auction that defines every Round to follow.
