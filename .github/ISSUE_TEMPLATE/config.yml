@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question / discuss lore
+    url: https://github.com/zombiestageweb/Wiki/discussions
+    about: For open-ended questions, theories, and community discussion — please use Discussions rather than Issues.
+  - name: Read the wiki
+    url: https://zombiestage.com
+    about: The finished, reader-facing wiki lives here.
+  - name: Watch officially
+    url: https://www.youtube.com/@vivinos
+    about: VIVINOS' official YouTube channel.
