@@ -5,6 +5,9 @@ description: "Round-by-round episode guide for Zombie Stage: what happens, which
 permalink: /rounds/
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/](https://zombiestage.com/guide/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Zombie Stage is structured as **six Rounds**, mirroring the tournament format of mainline *Alien
 Stage* but staged inside an underground zombie-arena run by wealthy non-infected humans. Below is
 the current known map of Rounds.
