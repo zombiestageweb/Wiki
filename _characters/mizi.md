@@ -7,6 +7,9 @@ description: "Mizi in Zombie Stage: the K-pop idol who was zombified but kept pe
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/characters/mizi/](https://zombiestage.com/characters/mizi/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Mizi** in Zombie Stage is the K-pop idol who was zombified and captured — but was famous enough
 that the arena kept her "presentable" and put her back on stage. She is the Round 1 headliner
 opposite [Sua](/characters/sua/).
