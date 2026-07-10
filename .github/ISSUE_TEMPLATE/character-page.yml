@@ -1,0 +1,42 @@
+name: "Character page — create or expand"
+description: "Propose a new character page or a substantial expansion of an existing one."
+title: "[character] <Name> — create/expand page"
+labels: ["content", "character", "good-first-content"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Character name
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of change
+      options: [Create new page, Expand existing page, Fix factual error]
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: Role in Zombie Stage
+      description: "Round they appear in, songs they perform, relationships, and any known lore. Please separate canon (from official uploads / Patreon comic) from headcanon."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: "Links to official uploads, Patreon comic pages, VIVINOS statements, or Fandom pages for cross-reference."
+      placeholder: |
+        - https://www.youtube.com/…
+        - https://alienstage.fandom.com/wiki/…
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: I agree to license my contribution under CC BY-SA 4.0.
+      options:
+        - label: "Yes, I agree."
+          required: true
