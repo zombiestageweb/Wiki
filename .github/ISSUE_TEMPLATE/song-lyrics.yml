@@ -1,0 +1,59 @@
+name: "Lyrics correction / verification"
+description: "Report a wrong or missing lyric line, or verify against the official YouTube upload."
+title: "[lyrics] <song title> — <one-line summary>"
+labels: ["lyrics", "song", "needs-source"]
+body:
+  - type: input
+    id: song
+    attributes:
+      label: Song title
+      placeholder: "Candy Scar"
+    validations:
+      required: true
+  - type: input
+    id: round
+    attributes:
+      label: Round
+      placeholder: "1"
+  - type: input
+    id: source_url
+    attributes:
+      label: Source (official YouTube URL)
+      description: "Please paste the direct link to VIVINOS' official upload. Fanmade audio-only reuploads are not accepted as a source."
+      placeholder: "https://www.youtube.com/watch?v=…"
+    validations:
+      required: true
+  - type: input
+    id: timestamp
+    attributes:
+      label: Timestamp in the video
+      placeholder: "01:23"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current line (as it appears in the wiki now)
+      render: text
+  - type: textarea
+    id: corrected
+    attributes:
+      label: Corrected line
+      description: "For Korean, please give both the Hangul and a romanization. If you're adding an English translation, mark it clearly as a translation, not the original."
+      render: text
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language of the corrected line
+      options: [Korean (Hangul), Romanized, English translation, Other]
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: I agree to license my contribution under CC BY-SA 4.0.
+      options:
+        - label: "Yes, I agree."
+          required: true
