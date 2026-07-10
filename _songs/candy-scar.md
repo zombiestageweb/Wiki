@@ -22,6 +22,9 @@ jsonld:
   inLanguage: "ko"
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/lyrics/candy-scar/](https://zombiestage.com/lyrics/candy-scar/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Candy Scar** is a song from **Zombie Stage Round 1**. It anchors **Sua's** arc in the Round — the moment
 the "Sewer" nickname takes on its full weight, and Sua's fixation on Mizi curdles into the macabre
 finale that Round 1 is now infamous for.
