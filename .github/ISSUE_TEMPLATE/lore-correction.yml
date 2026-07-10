@@ -1,0 +1,35 @@
+name: "Lore correction or new lore"
+description: "Report a lore mistake or add newly revealed lore."
+title: "[lore] <topic>"
+labels: ["content", "lore"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which wiki page does this affect?
+      placeholder: "https://zombiestage.com/guide/zombie-stage-explained/"
+  - type: textarea
+    id: current
+    attributes:
+      label: What the page says now (quote)
+      render: text
+  - type: textarea
+    id: corrected
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: "Official YouTube upload with timestamp, Patreon comic page, VIVINOS post/tweet, etc. Fan speculation on its own is not enough — please label speculation as such."
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: I agree to license my contribution under CC BY-SA 4.0.
+      options:
+        - label: "Yes, I agree."
+          required: true
