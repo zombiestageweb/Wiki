@@ -5,6 +5,9 @@ description: "How to add lyrics, characters, and episode information to the Zomb
 permalink: /contribute/
 ---
 
+> **Read this on the main wiki:** [https://github.com/zombiestageweb/Wiki/blob/main/CONTRIBUTING.md](https://github.com/zombiestageweb/Wiki/blob/main/CONTRIBUTING.md)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 This wiki is 100% community-run. Every page is a **Markdown file** in the
 [`zombiestageweb/Wiki`](https://github.com/zombiestageweb/Wiki) repo. You do not need to know Git —
 GitHub's web UI lets you edit any file, and it will open a pull request for you automatically.
