@@ -22,6 +22,9 @@ jsonld:
   inLanguage: "ko"
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/lyrics/little-bunny/](https://zombiestage.com/lyrics/little-bunny/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Little Bunny** is a song from **Zombie Stage Round 1**, the opening act of the Zombie Stage AU by VIVINOS. It plays over the sequence in which **Mizi**, still trading on her surviving idol persona, performs for the non-infected crowd — the "little bunny" motif recurring in her Round 1 staging.
 
 ## Meaning (community reading)
