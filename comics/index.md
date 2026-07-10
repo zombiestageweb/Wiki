@@ -6,6 +6,9 @@ permalink: /comics/
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/comic-and-translations/](https://zombiestage.com/guide/comic-and-translations/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Alongside the video Rounds, VIVINOS publishes a **Zombie Stage comic**. This page tracks the
 official source and community translation efforts.
 
