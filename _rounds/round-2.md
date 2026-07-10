@@ -7,6 +7,9 @@ summary: "Status: unannounced. Release date TBA."
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/next-round-release-date/](https://zombiestage.com/guide/next-round-release-date/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Round 2** of Zombie Stage has **not been released** at the time of writing. Round 1 dropped in
 June 2026; there is no official Round 2 date yet.
 
