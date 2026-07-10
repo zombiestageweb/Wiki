@@ -6,6 +6,9 @@ permalink: /watch/
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/where-to-watch/](https://zombiestage.com/guide/where-to-watch/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Zombie Stage is released **officially and for free** by VIVINOS. This page collects the legitimate
 channels — we do **not** link to unauthorized re-uploads.
 
