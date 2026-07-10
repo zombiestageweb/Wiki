@@ -6,6 +6,9 @@ permalink: /timeline/
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/au-timeline/](https://zombiestage.com/guide/au-timeline/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Zombie Stage is an **alternate universe**. It is not a sequel to *Alien Stage*'s KARMA ending and
 does not overwrite mainline canon. Below is the current placement.
 
