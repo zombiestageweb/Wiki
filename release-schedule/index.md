@@ -6,6 +6,9 @@ permalink: /release-schedule/
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/next-round-release-date/](https://zombiestage.com/guide/next-round-release-date/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 Zombie Stage rolls out **one Round at a time** on VIVINOS' official YouTube. There is no fixed
 weekly slot; releases are event drops.
 
