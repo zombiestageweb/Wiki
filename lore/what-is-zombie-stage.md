@@ -6,6 +6,9 @@ permalink: /lore/what-is-zombie-stage/
 updated: 2026-06-30
 ---
 
+> **Read this on the main wiki:** [https://zombiestage.com/guide/zombie-stage-explained/](https://zombiestage.com/guide/zombie-stage-explained/)  
+> This markdown is the community draft. Corrections here get pulled into the main site.
+
 **Zombie Stage is an official alternate universe of the [*Alien Stage*](https://alienstage.fandom.com/) (ALNST) series by [VIVINOS](https://www.youtube.com/@vivinos).** Round 1 released in **June 2026**. Instead of aliens hunting humans, humans have turned into zombies — and the *non-infected* minority run an underground arena where infected performers sing for their survival.
 
 ## The premise in one paragraph
